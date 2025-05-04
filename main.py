@@ -1,3 +1,8 @@
 name = input()
 age = input()
-print(f"Вітаю, ваше ім'я - {name}, вам {age} років!")
+age = int(age)
+
+if age<18:
+    print(f"Вхід заборонено.")
+else:
+    print(f"Вітаю, ваше ім'я - {name}, вам {age} років!")
